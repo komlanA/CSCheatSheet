@@ -36,6 +36,7 @@ This application is to help Computer Science students by providing them with a s
 **Optional Nice-to-have Stories**
 
 4 - Forum option
+
 5 - Up / Down vote system on posts to filter out any unnecessary or repeat posts
 
 ### 2. Screen Archetypes
