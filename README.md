@@ -28,7 +28,9 @@ This application is to help Computer Science students by providing them with a s
 **Required Must-have Stories**
 
 1 - User can log in and user stays logged in even on app close, until they log out
+
 2 - User can upload information for other students to see
+
 3 - User can add and remove flashcards
 
 **Optional Nice-to-have Stories**
