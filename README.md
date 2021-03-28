@@ -77,9 +77,19 @@ This application is to help Computer Science students by providing them with a s
 <img src="https://i.imgur.com/u1TQkGS.png" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Post
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | image         | File     | image that user posts for notes/questions |
+   | caption       | String   | caption about the notes or it can be a question from the user |
+   | commentsCount | Number   | number of comments that has been posted to an image |
+   | upVotes    | Number   | number of up votes for the post |
+   | downVotes    | Number   | number of down votes for the post |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
