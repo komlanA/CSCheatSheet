@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="purple">#503c75</color>
+    <color name="mist"> #b5a4bd </color>
+    <color name="white"> #fcfcf9 </color>
+    <color name="gray">#b6b9b0</color>
+    <color name="black">#353633</color>
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="bright_pink2">#bd0999</color>
+
+    <color name="red">#c43221</color>
+    <color name="red2">#911d10</color>
+
+    <color name="orange">#FF7F00</color>
+    <color name="orange2">#75410d</color>
+
+    <color name="yellow">#f2ce3f</color>
+    <color name="yellow2">#fff763</color>
+
+    <color name="chartreuse">#88bd39</color>
+    <color name="chartreuse2">#769126</color>
+
+    <color name="green">#73e683</color>
+    <color name="green2">#3ead4e</color>
+
+    <color name="cyan">#00FFFF</color>
+    <color name="cyan2">#0db5b5</color>
+
+    <color name="azure">#007FFF</color>
+    <color name="azure2">#165da6</color>
+
+    <color name="blue">#2323a8</color>
+    <color name="blue2">#4a4aff</color>
+
+    <color name="violet">#7F00FF</color>
+    <color name="violet2">#5a2b8a</color>
+
+    <color name="magenta">#FF00FF</color>
+    <color name="magenta2">#9c009c</color>
+
+</resources>
