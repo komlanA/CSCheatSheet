@@ -42,5 +42,7 @@
 
     <color name="magenta">#FF00FF</color>
     <color name="magenta2">#9c009c</color>
+    
+    <color name="color_minefragment_top">#20B2AA</color>
 
 </resources>
