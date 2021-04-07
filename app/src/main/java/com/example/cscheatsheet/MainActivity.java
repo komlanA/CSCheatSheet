@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 Fragment fragment;
                 switch (menuItem.getItemId()) {
-                    case R.id.action_home:
+                    case R.id.action_feed:
                         fragment = new PostsFragment();
                         break;
-                    case R.id.action_compose:
+                    case R.id.action_flashcards:
                         fragment = new FlashFragment();
                         break;
                     case R.id.action_profile:
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Set default selection
-        bottomNavigationView.setSelectedItemId(R.id.action_home);
+        bottomNavigationView.setSelectedItemId(R.id.action_feed);
 
 
     }

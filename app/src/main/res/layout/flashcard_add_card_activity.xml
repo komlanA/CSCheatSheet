@@ -33,7 +33,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="300dp"
-        android:text="make changes" />
+        android:text="add card" />
 
     <ImageView
         android:id="@+id/close_button"

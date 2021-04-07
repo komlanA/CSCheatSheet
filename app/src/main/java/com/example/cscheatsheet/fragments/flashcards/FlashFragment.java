@@ -154,7 +154,6 @@ public class FlashFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 addNewCard();
-                showToast("Adding a new card");
             }
         });
 
