@@ -1,5 +1,7 @@
 package com.example.cscheatsheet.fragments.flashcards;
 
+import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -38,6 +40,7 @@ public class FlashFragment extends Fragment {
     private Button delete;
     private ImageView menu_button;
 
+    // Context context = getContext();
 
     public FlashFragment() {
         // Required empty public constructor
@@ -183,19 +186,16 @@ public class FlashFragment extends Fragment {
 
     }
     public void addNewCard(){
-/*
-            final Animation left_in = AnimationUtils.loadAnimation(this, R.anim.slide_in_left);
-            final Animation right_in = AnimationUtils.loadAnimation(this, R.anim.slide_out_right);
-            final Animation left_out = AnimationUtils.loadAnimation(this, R.anim.slide_out_left);
-            final Animation right_out = AnimationUtils.loadAnimation(this, R.anim.slide_out_right);
-*/
+
+
+
         cardIndex = allFlashcards.size();
 
         Intent i = new Intent(getActivity(), add_card_activity.class);
 
         FlashFragment.this.startActivityForResult(i, 100);
 
-        //overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+        getActivity().overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
 
     }
 
