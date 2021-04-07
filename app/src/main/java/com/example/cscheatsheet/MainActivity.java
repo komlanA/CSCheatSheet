@@ -5,6 +5,7 @@ import android.view.MenuItem;
 
 import com.example.cscheatsheet.fragments.PostsFragment;
 import com.example.cscheatsheet.fragments.ProfileFragment;
+import com.example.cscheatsheet.fragments.flashcards.FlashFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new PostsFragment();
                         break;
                     case R.id.action_compose:
-                        fragment = new Fragment();
+                        fragment = new FlashFragment();
                         break;
                     case R.id.action_profile:
                     default:

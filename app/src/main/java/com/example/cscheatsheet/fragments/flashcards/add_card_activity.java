@@ -8,12 +8,15 @@ import android.widget.Toast;
 
 import com.example.cscheatsheet.R;
 
-public class add_card_activity extends MainActivity {
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+
+public class add_card_activity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.flashcard_add_card_activity);
+        setContentView(R.layout.flashcard_add_card_fragment);
 
         findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
             @Override

@@ -21,8 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.cscheatsheet.MainActivity"></activity>
+        <activity android:name="com.example.cscheatsheet.fragments.flashcards.add_card_activity"></activity>
         <activity android:name="com.example.cscheatsheet.RegisterActivity"></activity>
-            />
+
     </application>
 
 </manifest>
