@@ -9,7 +9,7 @@
         android:visible="true"
         app:showAsAction="always" />
     <item
-        android:id="@+id/action_post"
+        android:id="@+id/action_compose"
         android:icon="@android:drawable/ic_menu_edit"
         android:title="Post"
         android:visible="true"

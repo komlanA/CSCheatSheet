@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="@string/textview"
+        android:text="TextView"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
@@ -22,8 +22,7 @@
         android:layout_height="300dp"
         android:scaleType="centerCrop"
         android:visibility="visible"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="TODO" />
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/tvDescription"
@@ -35,7 +34,6 @@
         android:textSize="24sp"
         android:visibility="visible"
         tools:text="New post description should appear here" />
-
 
     <View
         android:id="@+id/divider"

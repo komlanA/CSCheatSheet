@@ -3,6 +3,7 @@ package com.example.cscheatsheet;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.cscheatsheet.fragments.ComposeFragment;
 import com.example.cscheatsheet.fragments.PostsFragment;
 import com.example.cscheatsheet.fragments.ProfileFragment;
 import com.example.cscheatsheet.fragments.flashcards.FlashFragment;
@@ -38,6 +39,10 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.action_flashcards:
                         fragment = new FlashFragment();
+                        break;
+                    case R.id.action_compose:
+                        fragment = new ComposeFragment();
+                        //setContentView(R.layout.fragment_compose);
                         break;
                     case R.id.action_profile:
                     default:

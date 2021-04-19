@@ -1,5 +1,6 @@
 package com.example.cscheatsheet.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -13,13 +14,17 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Toast;
 
+import com.example.cscheatsheet.LoginActivity;
 import com.example.cscheatsheet.Post;
 import com.example.cscheatsheet.PostsAdapter;
 import com.example.cscheatsheet.R;
 import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseQuery;
+import com.parse.ParseUser;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,6 +37,7 @@ public class PostsFragment extends Fragment {
     private final String TAG = "PostsFragment";
     private SwipeRefreshLayout swipeContainer;
     private RecyclerView rvPosts;
+    private Button btnLogOut;
     protected PostsAdapter adapter;
     protected List<Post> allPosts;
 
@@ -39,7 +45,7 @@ public class PostsFragment extends Fragment {
         //leave empty
     }
 
-/*    @Override
+    @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         rvPosts = view.findViewById(R.id.rvPosts);
@@ -57,13 +63,8 @@ public class PostsFragment extends Fragment {
         rvPosts.setLayoutManager(new LinearLayoutManager(getContext()));
 
         queryPost();
-    }*/
-
-    @Override
-    public void onViewCreated(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_post, container, )
     }
+
 
     @Nullable
     @Override
