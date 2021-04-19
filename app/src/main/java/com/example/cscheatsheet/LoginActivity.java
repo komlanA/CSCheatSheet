@@ -24,11 +24,23 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private EditText mEtLoginactivityPassword;
     private LinearLayout mLlLoginactivityTwo;
     private Button mBtLoginactivityLogin;
+    
+    SharedPreferences sprfMain;
+    SharedPreferences.Editor editorMain;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Determine whether you have logged in before loading the layout file
+        sprfMain= PreferenceManager.getDefaultSharedPreferences(this);
+        editorMain=sprfMain.edit();
+        //.getBoolean("main",false); when the key value corresponding to "main" is not found, false is returned by default
+        if(sprfMain.getBoolean("main",false)){
+            Intent intent=new Intent(LoginActivity.this,MainActivity.class);
+            startActivity(intent);
+            LoginActivity.this.finish();
+        }
         setContentView(R.layout.activity_login);
 
         initView();
