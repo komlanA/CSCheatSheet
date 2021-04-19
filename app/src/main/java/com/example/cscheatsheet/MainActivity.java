@@ -42,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.action_compose:
                         fragment = new ComposeFragment();
-                        //setContentView(R.layout.fragment_compose);
                         break;
                     case R.id.action_profile:
                     default:

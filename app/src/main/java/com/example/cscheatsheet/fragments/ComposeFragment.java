@@ -40,7 +40,7 @@ import static android.app.Activity.RESULT_OK;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ComposeFragment#newInstance} factory method to
+ * Use the {@link ComposeFragment #newInstance} factory method to
  * create an instance of this fragment.
  */
 public class ComposeFragment extends Fragment {
@@ -102,6 +102,7 @@ public class ComposeFragment extends Fragment {
                     return;
                 }
                 ParseUser currentUser = ParseUser.getCurrentUser();
+                System.out.println("The current user is " + currentUser);
                 savePost(description, currentUser, photoFile);
             }
         });

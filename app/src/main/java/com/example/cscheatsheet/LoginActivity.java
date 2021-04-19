@@ -2,89 +2,87 @@ package com.example.cscheatsheet;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.ArrayList;
+import com.parse.LogInCallback;
+import com.parse.ParseException;
+import com.parse.ParseUser;
 
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+public class LoginActivity extends AppCompatActivity {
 
-    private DBOpenHelper mDBOpenHelper;
-    private TextView mTvLoginactivityRegister;
-    private RelativeLayout mRlLoginactivityTop;
-    private EditText mEtLoginactivityUsername;
-    private EditText mEtLoginactivityPassword;
-    private LinearLayout mLlLoginactivityTwo;
-    private Button mBtLoginactivityLogin;
-
+    public static final String TAG = "LoginActivity";
+    private EditText etUsername;
+    private EditText etPassword;
+    private Button btnLogin;
+    private Button btnSignUp;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        initView();
-
-        mDBOpenHelper = new DBOpenHelper(this);
-    }
-
-    private void initView() {
-        // Initialize the control
-        mBtLoginactivityLogin = findViewById(R.id.bt_loginactivity_login);
-        mTvLoginactivityRegister = findViewById(R.id.tv_loginactivity_register);
-        mRlLoginactivityTop = findViewById(R.id.rl_loginactivity_top);
-        mEtLoginactivityUsername = findViewById(R.id.et_loginactivity_username);
-        mEtLoginactivityPassword = findViewById(R.id.et_loginactivity_password);
-        mLlLoginactivityTwo = findViewById(R.id.ll_loginactivity_two);
-
-        // Set the click event listener
-        mBtLoginactivityLogin.setOnClickListener(this);
-        mTvLoginactivityRegister.setOnClickListener(this);
-    }
-
-    public void onClick(View view) {
-        switch (view.getId()) {
-            // Jump to the registration interface
-            case R.id.tv_loginactivity_register:
-                startActivity(new Intent(this, RegisterActivity.class));
-                finish();
-                break;
-
-            case R.id.bt_loginactivity_login:
-                String name = mEtLoginactivityUsername.getText().toString().trim();
-                String password = mEtLoginactivityPassword.getText().toString().trim();
-                if (!TextUtils.isEmpty(name) && !TextUtils.isEmpty(password)) {
-                    ArrayList<User> data = mDBOpenHelper.getAllData();
-                    boolean match = false;
-                    for (int i = 0; i < data.size(); i++) {
-                        User user = data.get(i);
-                        if (name.equals(user.getName()) && password.equals(user.getPassword())) {
-                            match = true;
-                            break;
-                        } else {
-                            match = false;
-                        }
-                    }
-                    if (match) {
-                        Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(this, MainActivity.class);
-                        startActivity(intent);
-                        finish();// Destroy this Activity
-                    } else {
-                        Toast.makeText(this, "The username or password is incorrect,please enter again", Toast.LENGTH_SHORT).show();
-                    }
-                } else {
-                    Toast.makeText(this, "Please enter your username or password", Toast.LENGTH_SHORT).show();
-                }
-                break;
+        if (ParseUser.getCurrentUser() != null) {
+            goMainActivity();
         }
+
+        etUsername = findViewById(R.id.etUsername);
+        etPassword = findViewById(R.id.etDescription);
+        btnLogin = findViewById(R.id.btnLogin);
+        btnSignUp = findViewById(R.id.btnSignUp);
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "onClick login button");
+                String username = etUsername.getText().toString();
+                String password = etPassword.getText().toString();
+                loginUser(username, password);
+            }
+        });
+
+        btnSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "onClick sign up button");
+                goSignUpActivity();
+            }
+        });
+    }
+
+    private void goSignUpActivity() {
+        Intent i = new Intent(this, SignUpActivity.class);
+        startActivity(i);
+        finish();
+    }
+
+    private void loginUser(String username, String password) {
+        Log.i(TAG, "Attempting to login user " + username);
+        ParseUser.logInInBackground(username, password, new LogInCallback() {
+            @Override
+            public void done(ParseUser user, ParseException e) {
+                if (e != null) {
+                    // TODO: better error handling
+                    Log.e(TAG, "Issue with login", e);
+                    Toast.makeText(LoginActivity.this, "Issue with login!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                // TODO: navigate to te main activity if the user has signed in properly
+                goMainActivity();
+                Toast.makeText(LoginActivity.this, "Success!", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+
+    private void goMainActivity() {
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+        finish();
     }
 }
