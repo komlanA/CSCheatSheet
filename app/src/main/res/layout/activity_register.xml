@@ -27,13 +27,12 @@
             android:id="@+id/tv_registeractivity_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registered"
-            android:textColor="#fff"
-            android:textSize="20dp"
-            android:layout_toRightOf="@+id/iv_registeractivity_back"
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
-            />
+            android:layout_toRightOf="@+id/iv_registeractivity_back"
+            android:text="Register"
+            android:textColor="#fff"
+            android:textSize="20dp" />
     </RelativeLayout>
 
     <LinearLayout
@@ -151,7 +150,7 @@
             android:layout_marginTop="40dp"
             android:background="@drawable/selector_loginactivity_button"
             android:onClick="onClick"
-            android:text="Registered"
+            android:text="Register"
             android:textColor="#fff" />
 
         <RelativeLayout

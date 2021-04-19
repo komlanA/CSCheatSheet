@@ -39,7 +39,7 @@ public class PostsFragment extends Fragment {
         //leave empty
     }
 
-    @Override
+/*    @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         rvPosts = view.findViewById(R.id.rvPosts);
@@ -57,6 +57,12 @@ public class PostsFragment extends Fragment {
         rvPosts.setLayoutManager(new LinearLayoutManager(getContext()));
 
         queryPost();
+    }*/
+
+    @Override
+    public void onViewCreated(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_post, container, )
     }
 
     @Nullable

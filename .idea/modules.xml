@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BootlegInstagram.iml" filepath="$PROJECT_DIR$/BootlegInstagram.iml" group="BootlegInstagram" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="BootlegInstagram/app" />
+      <module fileurl="file://$PROJECT_DIR$/BootlegInstagram.iml" filepath="$PROJECT_DIR$/BootlegInstagram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BootlegInstagram.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BootlegInstagram.app.iml" />
     </modules>
   </component>
 </project>

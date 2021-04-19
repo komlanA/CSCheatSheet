@@ -8,16 +8,22 @@
     tools:context="com.example.cscheatsheet.MainActivity">
 
     <FrameLayout
+        android:id="@+id/flContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/flContainer"
-        android:layout_above="@id/bottomNavigation"/>
+        android:layout_above="@id/bottomNavigation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="-1dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
         app:menu="@menu/menu_bottom_navigation" />
 
 </RelativeLayout>

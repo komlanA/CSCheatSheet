@@ -34,19 +34,19 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
             />
+
         <TextView
             android:id="@+id/tv_loginactivity_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registered"
-            android:textColor="#fff"
-            android:textSize="20dp"
-            android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
             android:layout_marginRight="30dp"
             android:clickable="true"
             android:onClick="onClick"
-            />
+            android:text="Register"
+            android:textColor="#fff"
+            android:textSize="20dp" />
     </RelativeLayout>
 
     <LinearLayout

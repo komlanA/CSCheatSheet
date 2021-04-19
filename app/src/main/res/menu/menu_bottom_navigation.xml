@@ -5,12 +5,18 @@
     <item
         android:id="@+id/action_feed"
         android:icon="@drawable/ic_wifi_tethering_black_24dp"
-        android:title="Feed"
+        android:title="Home"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_post"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Post"
         android:visible="true"
         app:showAsAction="always" />
     <item
         android:id="@+id/action_flashcards"
-        android:icon="@android:drawable/ic_menu_edit"
+        android:icon="@drawable/ic_baseline_call_to_action_24"
         android:title="Flashcards"
         android:visible="true"
         app:showAsAction="always" />

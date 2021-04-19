@@ -3,6 +3,10 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1e990f21397dabd03c313dcdf177565/jetified-parse-1.18.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1e990f21397dabd03c313dcdf177565/jetified-parse-1.18.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3867d5a32af8b88677e080b570b33d30/jetified-parse-1.18.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3c49b7f6e5468e39f84753d9938dee0/jetified-parse-1.18.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3c49b7f6e5468e39f84753d9938dee0/jetified-parse-1.18.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3c49b7f6e5468e39f84753d9938dee0/jetified-parse-1.18.5/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.parse-community.Parse-SDK-Android/parse/1.18.5/d6bba6fb7242b9ac7c076ed91900a8a529ef7bde/parse-1.18.5-javadoc.jar!/" />
