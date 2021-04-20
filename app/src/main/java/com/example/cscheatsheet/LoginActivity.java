@@ -1,6 +1,7 @@
 package com.example.cscheatsheet;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,6 +27,15 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Determine whether you have logged in before loading the layout file
+        sprfMain= PreferenceManager.getDefaultSharedPreferences(this);
+        editorMain=sprfMain.edit();
+        //.getBoolean("main",false); when the key value corresponding to "main" is not found, false is returned by default
+        if(sprfMain.getBoolean("main",false)){
+            Intent intent=new Intent(LoginActivity.this,MainActivity.class);
+            startActivity(intent);
+            LoginActivity.this.finish();
+        }
         setContentView(R.layout.activity_login);
 
         if (ParseUser.getCurrentUser() != null) {
