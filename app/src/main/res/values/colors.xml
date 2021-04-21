@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#137d7d</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#55c6c9</color>
 
-    <color name="colorBackground">#161d24</color>
+    <color name="colorBackground">#22272b</color>
     <color name="colorText">#bdbdbd</color>
-    <color name="colorButton">#2c494d</color>
-    <color name="colorButtonText">#bdbdbd</color>
+    <color name="colorButton">#2f3438</color>
+    <color name="colorButtonText">#67d6d6</color>
 
     <color name="questionColor">#080c0d</color>
     <color name="questionColorText">#31c2c4</color>
@@ -46,7 +46,6 @@
 
     <color name="azure">#007FFF</color>
     <color name="azure2">#165da6</color>
-
 
     <color name="darkblue">#101114</color>
 

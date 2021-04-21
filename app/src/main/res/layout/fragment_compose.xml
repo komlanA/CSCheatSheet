@@ -9,6 +9,8 @@
 
     <EditText
         android:id="@+id/etDescription"
+        android:textColorHint="@color/cyan2"
+        android:textColor="@color/colorButtonText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -16,6 +18,8 @@
 
     <Button
         android:id="@+id/btnCaptureImage"
+        android:background="@color/darkblue"
+        android:textColor="@color/colorButtonText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Take picture" />
@@ -28,12 +32,16 @@
 
     <Button
         android:id="@+id/btnSubmit"
+        android:background="@color/darkblue"
+        android:textColor="@color/colorButtonText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="submit" />
 
     <Button
         android:id="@+id/btnLogOut"
+        android:textColor="@color/colorButtonText"
+        android:background="@color/darkblue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Log out" />
