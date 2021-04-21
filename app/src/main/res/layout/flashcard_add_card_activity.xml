@@ -5,10 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.flashcards.add_card_activity">
+    tools:context=".fragments.flashcards.add_card_activity"
+    android:background="@color/colorBackground">
 
     <EditText
         android:id="@+id/editQuestion"
+        android:textColorHint="@color/cyan2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -18,6 +20,7 @@
 
     <EditText
         android:id="@+id/editAnswer"
+        android:textColorHint="@color/cyan2"
         android:layout_below="@+id/editQuestion"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
@@ -28,6 +31,8 @@
 
     <Button
         android:id="@+id/button1"
+        android:background="@color/colorButton"
+        android:textColor="@color/colorButtonText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

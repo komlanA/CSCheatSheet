@@ -80,8 +80,8 @@ public class FlashFragment extends Fragment {
 
         answer_text.setVisibility(View.INVISIBLE);
 
-        answer_text.setBackgroundColor(getResources().getColor(R.color.green));
-        question_text.setBackgroundColor(getResources().getColor(R.color.yellow));
+        answer_text.setBackgroundColor(getResources().getColor(R.color.answerColor));
+        question_text.setBackgroundColor(getResources().getColor(R.color.questionColor));
 
         ///ANIMATE///
 

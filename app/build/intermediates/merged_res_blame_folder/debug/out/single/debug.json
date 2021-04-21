@@ -72,6 +72,10 @@
         "source": "/Users/es/Documents/Homework/CSCheatSheet/app/src/main/res/drawable/selector_loginactivity_button.xml"
     },
     {
+        "merged": "/Users/es/Documents/Homework/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_navigation_bar_gradient.xml.flat",
+        "source": "/Users/es/Documents/Homework/CSCheatSheet/app/src/main/res/drawable/navigation_bar_gradient.xml"
+    },
+    {
         "merged": "/Users/es/Documents/Homework/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_ic_baseline_call_to_action_24.xml.flat",
         "source": "/Users/es/Documents/Homework/CSCheatSheet/app/src/main/res/drawable/ic_baseline_call_to_action_24.xml"
     },

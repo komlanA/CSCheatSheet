@@ -2,7 +2,20 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#55c6c9</color>
+
+    <color name="colorBackground">#161d24</color>
+    <color name="colorText">#bdbdbd</color>
+    <color name="colorButton">#2c494d</color>
+    <color name="colorButtonText">#bdbdbd</color>
+
+    <color name="questionColor">#080c0d</color>
+    <color name="questionColorText">#31c2c4</color>
+    <color name="answerColor">#009e9e</color>
+    <color name="answerColorText">#223133</color>
+
+    <color name="navigationGradient1">#137d7d</color>
+    <color name="navigationGradient2">#0c5369</color>
 
     <color name="purple">#503c75</color>
     <color name="mist"> #b5a4bd </color>
@@ -28,14 +41,14 @@
     <color name="green">#73e683</color>
     <color name="green2">#3ead4e</color>
 
-    <color name="cyan">#00FFFF</color>
-    <color name="cyan2">#0db5b5</color>
+    <color name="cyan">#02b5b5</color>
+    <color name="cyan2">#0a8080</color>
 
     <color name="azure">#007FFF</color>
     <color name="azure2">#165da6</color>
 
-    <color name="blue">#2323a8</color>
-    <color name="blue2">#4a4aff</color>
+
+    <color name="darkblue">#101114</color>
 
     <color name="violet">#7F00FF</color>
     <color name="violet2">#5a2b8a</color>
