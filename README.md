@@ -151,7 +151,7 @@ This application is to help Computer Science students by providing them with a s
        ## Start of individual work
        
        ### Previous version from group portion
-       <img src="https://i.imgur.com/G3Ou3rv.gif" width=600>
+       <img src="https://i.imgur.com/G3Ou3rv.gif" width=300>
        
        **Changes made so far**
        - UI Improvements, gradient background for login page and CS Club logo added
@@ -159,4 +159,4 @@ This application is to help Computer Science students by providing them with a s
        - persistent login
        
        ### Current working version
-       <img src="https://i.imgur.com/gu4J5r4.gif" width=600>
+       <img src="https://i.imgur.com/gu4J5r4.gif" width=300>
