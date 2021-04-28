@@ -58,6 +58,5 @@ com/example/cscheatsheet/fragments/ComposeFragment.java
  com.example.cscheatsheet.fragments.ComposeFragment$2
  com.example.cscheatsheet.fragments.ComposeFragment$3
  com.example.cscheatsheet.fragments.ComposeFragment$4
- com.example.cscheatsheet.fragments.ComposeFragment$5
 com/example/cscheatsheet/fragments/flashcards/AppDatabase.java
  com.example.cscheatsheet.fragments.flashcards.AppDatabase

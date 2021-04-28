@@ -106,21 +106,7 @@ public class ComposeFragment extends Fragment {
                 savePost(description, currentUser, photoFile);
             }
         });
-
-        btnLogOut.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.i(TAG, "Logging out!");
-                // clear everything so its not saved for next time
-                etDescription.setText("");
-                ivPostImage.setImageResource(0);
-                ParseUser.logOut();
-                goLoginActivity();
-                Toast.makeText(getContext(), "Logged out!", Toast.LENGTH_SHORT).show();
-
-
-            }
-        });
+        
     }
 
     private void launchCamera() {

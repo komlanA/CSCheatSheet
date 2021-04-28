@@ -1326,6 +1326,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_compose
 id action_container
 id action_context_bar
 id action_divider
@@ -1337,7 +1338,6 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
-id action_post
 id action_profile
 id action_text
 id actions
@@ -1372,7 +1372,6 @@ id btnLogin
 id btnSignUp2
 id btnSubmit
 id btnUpVote
-id button
 id button1
 id buttonPanel
 id cache_measures
@@ -1593,7 +1592,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1728,7 +1726,6 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 menu menu_bottom_navigation
-menu menu_top_navigation
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round

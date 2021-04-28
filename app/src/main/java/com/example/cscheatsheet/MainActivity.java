@@ -11,6 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
@@ -40,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.action_flashcards:
                         fragment = new FlashFragment();
                         break;
-                    //case R.id.action_compose:
-                        //fragment = new ComposeFragment();
-                        //break;
+                    case R.id.action_compose:
+                        fragment = new ComposeFragment();
+                        break;
                     case R.id.action_profile:
                     default:
                         fragment = new ProfileFragment();

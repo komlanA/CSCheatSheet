@@ -11,7 +11,7 @@
 
     <color name="questionColor">#080c0d</color>
     <color name="questionColorText">#31c2c4</color>
-    <color name="answerColor">#009e9e</color>
+    <color name="answerColor">#9E9E9E</color>
     <color name="answerColorText">#223133</color>
 
     <color name="navigationGradient1">#137d7d</color>
