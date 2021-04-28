@@ -48,5 +48,11 @@ dependencies {
     //flashcard import
     implementation "androidx.room:room-runtime:2.2.4"
     annotationProcessor "androidx.room:room-compiler:2.2.4"
-    //
+
+    // adding this in order to have moving images, gif
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+
 }

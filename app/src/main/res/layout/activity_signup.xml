@@ -1,41 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_margin="16dp"
+    android:background="@drawable/gradient1"
     tools:context=".SignUpActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/csclubmove"
+        />
+
+    <TextView
+        android:id="@+id/tvCSCheatSheet"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@+id/ivLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="serif"
+        android:text="CS Cheat Sheet"
+        android:textColor="#fff"
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Username" />
+        android:layout_below="@+id/tvCSCheatSheet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="18dp"
+        android:background="#80ffffff"
+        android:hint="Username"
+        android:padding="8dp"
+        android:textColor="#fff" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="password"
-        android:inputType="textPassword"/>
+        android:layout_below="@+id/etUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="18dp"
+        android:background="#80ffffff"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#fff" />
 
     <EditText
         android:id="@+id/etPasswordCheck"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="re-type password"
-        android:inputType="textPassword"/>
-
+        android:layout_below="@+id/etPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="18dp"
+        android:background="#80ffffff"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#fff" />
     <Button
         android:id="@+id/btnSignUp2"
-        android:layout_width="match_parent"
+        android:layout_width="377dp"
         android:layout_height="wrap_content"
-        android:text="Sign up" />
+        android:layout_below="@+id/etPasswordCheck"
+        android:layout_alignStart="@+id/etPasswordCheck"
+        android:layout_alignEnd="@+id/etPasswordCheck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="-1dp"
+        android:alpha="0.25"
+        android:background="@drawable/button_bg"
+        android:text="Sign Up"
+        android:textColor="#fff" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/tvTermsPolicy"
+        android:layout_width="221dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="By signing up, you agree to our Terms &amp; Privacy Policy"
+        android:textAlignment="center"
+        android:textColor="#fff" />
+
+</RelativeLayout>

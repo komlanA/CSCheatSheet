@@ -18,7 +18,7 @@
 12-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:6:22-64
 13
 14    <application
-14-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:8:5-39:19
+14-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:8:5-43:19
 15        android:name="com.example.cscheatsheet.ParseApplication"
 15-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:9:9-65
 16        android:allowBackup="true"
@@ -82,12 +82,19 @@
 47-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:37:9-85
 47-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:37:19-73
 48
-49        <service
-49-->[androidx.room:room-runtime:2.2.4] /Users/kom/.gradle/caches/transforms-2/files-2.1/81b189c5ab02d0505fe5a34b63eedaec/room-runtime-2.2.4/AndroidManifest.xml:25:9-27:40
-50            android:name="androidx.room.MultiInstanceInvalidationService"
-50-->[androidx.room:room-runtime:2.2.4] /Users/kom/.gradle/caches/transforms-2/files-2.1/81b189c5ab02d0505fe5a34b63eedaec/room-runtime-2.2.4/AndroidManifest.xml:26:13-74
-51            android:exported="false" />
-51-->[androidx.room:room-runtime:2.2.4] /Users/kom/.gradle/caches/transforms-2/files-2.1/81b189c5ab02d0505fe5a34b63eedaec/room-runtime-2.2.4/AndroidManifest.xml:27:13-37
-52    </application>
-53
-54</manifest>
+49        <meta-data
+49-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:39:9-41:57
+50            android:name="preloaded_fonts"
+50-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:40:13-43
+51            android:resource="@array/preloaded_fonts" />
+51-->/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/AndroidManifest.xml:41:13-54
+52
+53        <service
+53-->[androidx.room:room-runtime:2.2.4] /Users/kom/.gradle/caches/transforms-2/files-2.1/81b189c5ab02d0505fe5a34b63eedaec/room-runtime-2.2.4/AndroidManifest.xml:25:9-27:40
+54            android:name="androidx.room.MultiInstanceInvalidationService"
+54-->[androidx.room:room-runtime:2.2.4] /Users/kom/.gradle/caches/transforms-2/files-2.1/81b189c5ab02d0505fe5a34b63eedaec/room-runtime-2.2.4/AndroidManifest.xml:26:13-74
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.2.4] /Users/kom/.gradle/caches/transforms-2/files-2.1/81b189c5ab02d0505fe5a34b63eedaec/room-runtime-2.2.4/AndroidManifest.xml:27:13-37
+56    </application>
+57
+58</manifest>

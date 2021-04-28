@@ -6,39 +6,39 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.flashcards.add_card_activity"
-    android:background="@color/colorBackground">
+    android:background="#000000">
 
     <EditText
         android:id="@+id/editQuestion"
-        android:textColorHint="@color/cyan2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
         android:hint="Got a question?"
-        />
+        android:background="#80ffffff"
+        android:textColorHint="#FFFFFF" />
 
     <EditText
         android:id="@+id/editAnswer"
-        android:textColorHint="@color/cyan2"
-        android:layout_below="@+id/editQuestion"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_below="@+id/editQuestion"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
         android:hint="What's the answer?"
-        />
+        android:background="#80ffffff"
+        android:textColorHint="#FFFFFF" />
 
     <Button
         android:id="@+id/button1"
-        android:background="@color/colorButton"
-        android:textColor="@color/colorButtonText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="300dp"
-        android:text="add card" />
+        android:background="@color/colorButton"
+        android:text="add card"
+        android:textColor="#FFFFFF" />
 
     <ImageView
         android:id="@+id/close_button"

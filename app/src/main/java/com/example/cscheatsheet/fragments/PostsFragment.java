@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -48,7 +49,9 @@ public class PostsFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        btnLogOut = view.findViewById(R.id.btnLogOut);
         rvPosts = view.findViewById(R.id.rvPosts);
+        rvPosts.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
 
         //  Create the data source
         allPosts = new ArrayList<>();
@@ -62,7 +65,23 @@ public class PostsFragment extends Fragment {
         // Set the layout manager on the recycler view
         rvPosts.setLayoutManager(new LinearLayoutManager(getContext()));
 
+        ///////////////Log out////////////////
+        btnLogOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ParseUser.logOut();
+                ParseUser currentUser = ParseUser.getCurrentUser(); // this will now be null
+                goLoginActivity();
+            }
+        });
+
         queryPost();
+    }
+
+    protected void goLoginActivity() {
+        Intent i = new Intent(getContext(), LoginActivity.class);
+        startActivity(i);
+
     }
 
 

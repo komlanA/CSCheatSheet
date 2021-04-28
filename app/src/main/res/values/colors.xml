@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#137d7d</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#101010</color>
+    <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#55c6c9</color>
 
     <color name="colorBackground">#22272b</color>
@@ -54,7 +54,7 @@
 
     <color name="magenta">#FF00FF</color>
     <color name="magenta2">#9c009c</color>
-    
+
     <color name="color_minefragment_top">#20B2AA</color>
 
 </resources>

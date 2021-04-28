@@ -7,8 +7,7 @@
     android:background="@drawable/gradient1"
     tools:context=".LoginActivity">
 
-
-    <ImageView
+    <pl.droidsonroids.gif.GifImageView
         android:id="@+id/ivLogo"
         android:layout_width="match_parent"
         android:layout_height="210dp"
@@ -18,9 +17,8 @@
         android:layout_marginTop="18dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="30dp"
-        android:visibility="visible"
-        app:srcCompat="@drawable/csclublogo"
-        tools:src="@drawable/csclublogo" />
+        android:src="@drawable/csclubmove"
+        />
 
     <TextView
         android:id="@+id/tvCSCheatSheet"
@@ -29,9 +27,10 @@
         android:layout_below="@+id/ivLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="0dp"
+        android:fontFamily="serif"
         android:text="CS Cheat Sheet"
         android:textColor="#fff"
-        android:textSize="24sp" />
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/etUsername"
@@ -40,10 +39,9 @@
         android:layout_below="@+id/tvCSCheatSheet"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="18dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="18dp"
-        android:alpha="0.3"
-        android:background="#D3D3D3"
+        android:background="#80ffffff"
         android:hint="Username"
         android:padding="8dp"
         android:textColor="#fff" />
@@ -57,8 +55,7 @@
         android:layout_marginLeft="18dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="18dp"
-        android:alpha="0.3"
-        android:background="#D3D3D3"
+        android:background="#80ffffff"
         android:hint="Password"
         android:inputType="textPassword"
         android:padding="8dp"
@@ -66,15 +63,15 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
+        android:layout_width="377dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etPassword"
         android:layout_alignStart="@+id/etPassword"
         android:layout_alignEnd="@+id/etPassword"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="-3dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="-1dp"
         android:alpha="0.25"
         android:background="@drawable/button_bg"
         android:text="Login"

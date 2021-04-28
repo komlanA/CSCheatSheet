@@ -3,6 +3,7 @@ com/example/cscheatsheet/LoginActivity.java
  com.example.cscheatsheet.LoginActivity$1
  com.example.cscheatsheet.LoginActivity$2
  com.example.cscheatsheet.LoginActivity$3
+ com.example.cscheatsheet.LoginActivity$4
 com/example/cscheatsheet/fragments/flashcards/FlashcardDao.java
  com.example.cscheatsheet.fragments.flashcards.FlashcardDao
 com/example/cscheatsheet/Code.java
@@ -46,6 +47,7 @@ com/example/cscheatsheet/fragments/PostsFragment.java
  com.example.cscheatsheet.fragments.PostsFragment
  com.example.cscheatsheet.fragments.PostsFragment$1
  com.example.cscheatsheet.fragments.PostsFragment$2
+ com.example.cscheatsheet.fragments.PostsFragment$3
 com/example/cscheatsheet/fragments/flashcards/add_card_activity.java
  com.example.cscheatsheet.fragments.flashcards.add_card_activity
  com.example.cscheatsheet.fragments.flashcards.add_card_activity$1

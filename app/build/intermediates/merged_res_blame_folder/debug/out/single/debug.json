@@ -68,6 +68,10 @@
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/font_bilbo_swash_caps.ttf.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/font/bilbo_swash_caps.ttf"
+    },
+    {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/layout_item_post.xml.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/layout/item_post.xml"
     },
@@ -92,12 +96,20 @@
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_upward_24.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/ic_baseline_arrow_upward_24.xml"
+    },
+    {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/layout_activity_signup.xml.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/layout/activity_signup.xml"
     },
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_csclub_text.png.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable-mdpi/ic_csclub_text.png"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_home.png.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable-hdpi/ic_home.png"
     },
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_close_icon_white.xml.flat",
@@ -114,6 +126,14 @@
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_ic_wifi_tethering_black_24dp.xml.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/ic_wifi_tethering_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_ic_baseline_insert_comment_24.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/ic_baseline_insert_comment_24.xml"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/font_berkshire_swash.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/font/berkshire_swash.xml"
     },
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/anim_slide_out_right.xml.flat",
@@ -136,6 +156,10 @@
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/menu_menu_top_navigation.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/menu/menu_top_navigation.xml"
+    },
+    {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_csclub_text.png.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable-hdpi/ic_csclub_text.png"
     },
@@ -146,6 +170,10 @@
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_home.png.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable-xxhdpi/ic_home.png"
     },
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
@@ -192,6 +220,10 @@
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_csclubmove.gif.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/csclubmove.gif"
+    },
+    {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/layout/activity_login.xml"
     },
@@ -220,16 +252,36 @@
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/button_bg.xml"
     },
     {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable-anydpi_ic_home.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable-anydpi/ic_home.xml"
+    },
+    {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_csclub_text.png.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable-xhdpi/ic_csclub_text.png"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/font_bilbo.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/font/bilbo.xml"
     },
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_home.png.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable-mdpi/ic_home.png"
+    },
+    {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_home.png.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable-xhdpi/ic_home.png"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_ic_baseline_home_24.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/ic_baseline_home_24.xml"
     },
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_navigation_bar_gradient.xml.flat",
@@ -238,5 +290,13 @@
     {
         "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
         "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_ic_baseline_arrow_downward_24.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/ic_baseline_arrow_downward_24.xml"
+    },
+    {
+        "merged": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/build/intermediates/res/merged/debug/drawable_ic_baseline_add_24.xml.flat",
+        "source": "/Users/kom/AndroidStudioProjects/CSCheatSheetSolo/CSCheatSheet/app/src/main/res/drawable/ic_baseline_add_24.xml"
     }
 ]

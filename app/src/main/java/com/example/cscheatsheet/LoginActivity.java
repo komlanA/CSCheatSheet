@@ -44,7 +44,19 @@ public class LoginActivity extends AppCompatActivity {
                 Log.i(TAG, "onClick login button");
                 String username = etUsername.getText().toString();
                 String password = etPassword.getText().toString();
+
                 loginUser(username, password);
+            }
+        });
+
+        etPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "clicking into Password field");
+                String username = etUsername.getText().toString();
+                if (username.length() != 0) {
+                    btnLogin.setAlpha(1);
+                }
             }
         });
 
@@ -65,20 +77,28 @@ public class LoginActivity extends AppCompatActivity {
 
     private void loginUser(String username, String password) {
         Log.i(TAG, "Attempting to login user " + username);
-        ParseUser.logInInBackground(username, password, new LogInCallback() {
-            @Override
-            public void done(ParseUser user, ParseException e) {
-                if (e != null) {
-                    // TODO: better error handling
-                    Log.e(TAG, "Issue with login", e);
-                    Toast.makeText(LoginActivity.this, "Issue with login!", Toast.LENGTH_SHORT).show();
-                    return;
+        if (username.isEmpty()) {
+            Log.e(TAG, "Empty username");
+            Log.i(TAG, "onClick login button");
+            Toast.makeText(LoginActivity.this, "Cannot leave username empty!", Toast.LENGTH_SHORT).show();
+        } else if (password.isEmpty()) {
+            Log.e(TAG, "Password field empty");
+            Toast.makeText(LoginActivity.this, "Cannot leave password field empty!", Toast.LENGTH_SHORT).show();
+        } else {
+            ParseUser.logInInBackground(username, password, new LogInCallback() {
+                @Override
+                public void done(ParseUser user, ParseException e) {
+                    if (e != null) {
+                        Log.e(TAG, "Issue with login", e);
+                        Toast.makeText(LoginActivity.this, "Issue with login!", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+                    // TODO: navigate to te main activity if the user has signed in properly
+                    goMainActivity();
+                    Toast.makeText(LoginActivity.this, "Success!", Toast.LENGTH_SHORT).show();
                 }
-                // TODO: navigate to te main activity if the user has signed in properly
-                goMainActivity();
-                Toast.makeText(LoginActivity.this, "Success!", Toast.LENGTH_SHORT).show();
-            }
-        });
+            });
+        }
     }
 
     private void goMainActivity() {
